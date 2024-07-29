@@ -138,9 +138,7 @@ ${emoji.id.games} Games
 ${emoji.id.utility} Utility`, false)
       .addField(
         '__Links__',
-        `- Invite ${client.user.username} from [Here](${Settings.bot.credits.supportServer}) if you need help
-- Privacy Policy of [${client.user.username}](${Settings.bot.info.privacy})
-- Terms and Conditions of [${client.user.username}](${Settings.bot.info.terms})`, true);
+        `- Invite ${client.user.username} from [Here](${Settings.bot.credits.supportServer}), true);
 
     const embed2 = new MessageEmbed()
       .setColor(client.color)
