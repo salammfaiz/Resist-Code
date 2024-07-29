@@ -150,4 +150,4 @@ client.on("ready", async (client) => {
   setInterval(updateGuildPremiumStatus, 60000);
 });
 
-client.login(token);
+client.login(process.env.TOKEN);
