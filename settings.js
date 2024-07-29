@@ -1,5 +1,5 @@
 const prefix = process.env.prefix || '?'
-const status = `${prefix}help`;
+const status = `${prefix}help | FaizenSosuke`;
 
 module.exports = {
   bot: {
@@ -16,8 +16,8 @@ module.exports = {
       url: 'https://twitch.tv/pewdiepie'
     },
     credits: {
-      developerId: '560115112078475266',
-      supportServer: 'https://discord.gg/9qC6gSPj88'
+      developerId: '963354050617815060',
+      supportServer: 'https://discord.gg/FaizenSosuke'
     },
   }
 }
