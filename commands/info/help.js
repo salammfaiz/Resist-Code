@@ -36,67 +36,67 @@ module.exports = {
           {
             label: 'Home',
             value: 'h1',
-            emoji: "1192316758154027109",
+            emoji: "1265999533872250944",
             description: 'See Home Page'
           },
           {
             label: 'Antinuke',
             value: 'h2',
-            emoji: "1192316592999125042",
+            emoji: "1265999533872250944",
             description: 'See the antinuke Commands'
           },
           {
             label: 'Automod',
             value: 'h3',
-            emoji: "1192316445313466469",
+            emoji: "1265999533872250944",
             description: 'See the Automod Commands'
           },
           {
             label: 'Moderation',
             value: 'h4',
-            emoji: "1192315738573254676",
+            emoji: "1265999533872250944",
             description: 'See the Moderation Commands'
           },
           {
             label: 'Welcome',
             value: 'h5',
-            emoji: "1192350554454773781",
+            emoji: "1265999533872250944",
             description: 'See the Welcome Commands'
           },
           {
             label: 'Server',
             value: 'h6',
-            emoji: "1192315909415645286",
+            emoji: "1265999533872250944",
             description: 'See the Server Commands'
           },
           {
             label: 'Voice Role',
             value: 'h7',
-            emoji: "1192314850387435553",
+            emoji: "1265999533872250944",
             description: 'See the Voice Role Commands'
           },
           {
             label: 'Custom Roles',
             value: 'h8',
-            emoji: "1192316275960058008",
+            emoji: "1265999533872250944",
             description: 'See the Custom Roles Commands'
           },
           {
             label: 'Media',
             value: 'h9',
-            emoji: "1192315760261988453",
+            emoji: "1265999533872250944",
             description: 'See the Media Commands'
           },
           {
             label: 'Games',
             value: 'h10',
-            emoji: "1192316015376339035",
+            emoji: "1265999533872250944",
             description: 'See the Games Commands'
           },
           {
             label: 'Utility',
             value: 'h11',
-            emoji: "1192314971279859794",
+            emoji: "1265999533872250944",
             description: 'See the Utility Commands'
           },
         ])
@@ -105,12 +105,12 @@ module.exports = {
     const disabledMenuOptions = new MessageActionRow().addComponents(
       new MessageSelectMenu()
         .setCustomId('helpOption2')
-        .setPlaceholder('Choose wisely, shape your destiny.')
+        .setPlaceholder(' 👀 | Click to See All Commands.')
         .addOptions([
           {
             label: 'Home',
             value: 'h31',
-            emoji: "1062832533894602762",
+            emoji: "1265999533872250944",
             description: 'See Home Page'
           },
         ])
@@ -289,7 +289,7 @@ ${emoji.id.utility} Utility`, false)
 
     async function generateEmbed() {
       const embed = embeds[currentPage];
-      embed.setFooter(`Made by ${arypton.username} with 💞`, arypton.displayAvatarURL({ dynamic: true }));
+      embed.setFooter(`Made by FaizenSosuke`, arypton.displayAvatarURL({ dynamic: true }));
       return embed;
     }
 
