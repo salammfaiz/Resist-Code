@@ -135,10 +135,7 @@ ${emoji.id.voiceroles} Voice Roles
 ${emoji.id.customroles} Custom Role
 ${emoji.id.media} Media
 ${emoji.id.games} Games
-${emoji.id.utility} Utility`, false)
-      .addField(
-        '__Links__',
-        `- Invite ${client.user.username} from [Here](${Settings.bot.credits.supportServer}), true);
+${emoji.id.utility} Utility`, false);
 
     const embed2 = new MessageEmbed()
       .setColor(client.color)
